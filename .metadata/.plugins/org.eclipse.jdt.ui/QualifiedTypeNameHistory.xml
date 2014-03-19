@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.style"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.MapFragment"/>
+<fullyQualifiedTypeName name="android.view.Window"/>
+<fullyQualifiedTypeName name="com.google.android.glass.app.Card.ImageLayout"/>
+<fullyQualifiedTypeName name="com.google.android.glass.widget.CardScrollView"/>
+<fullyQualifiedTypeName name="com.google.android.glass.app.Card"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="com.ocd.dev.simplegrocerylist.GroceryListActivity.GroceryItemCards"/>
+<fullyQualifiedTypeName name="com.ocd.dev.simplegrocerylist.R.drawable"/>
+<fullyQualifiedTypeName name="com.ocd.dev.simplegrocerylist.GroceryListActivity.GroceryItem"/>
+<fullyQualifiedTypeName name="com.google.android.glass.widget.CardScrollAdapter"/>
+<fullyQualifiedTypeName name="com.ocd.dev.simplegrocerylist.GroceryListActivity.ListCardScrollAdapter"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package com.ocd.dev.simplegrocerylist;
+
+import com.google.android.glass.app.Card;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class GroceryListActivity extends Activity {
+	private Card mCard;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		mCard = new Card(this);
+		mCard.setText("Black rasberry chip ice cream");
+		mCard.setFootnote("1 of 4");
+		setContentView(mCard.toView());
+	}
+}
