@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.util.TypedValue;
-import android.view.Menu;
-import android.view.Window;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -39,7 +37,7 @@ public class MapActivity extends Activity {
             	
             	//?android:attr/actionBarSize
             	int actionBarSize = obtainActionBarHeight();
-            	mMap.setPadding(0, actionBarSize, 0, 0);
+            	//mMap.setPadding(0, actionBarSize, 0, 0);
             }
         }
     }
