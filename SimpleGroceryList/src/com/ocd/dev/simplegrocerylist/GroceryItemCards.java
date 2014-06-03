@@ -27,17 +27,28 @@ public class GroceryItemCards {
 			card.addImage(groceryItem.getImageResource());
 			card.setImageLayout(ImageLayout.FULL);
 		}
-
+		
 		mCards.add(card);
 	}
 	
-	public List<Card> getCards() {
+	public void removeGroceryItemAt(int position) {
+		mCards.remove(position);
+	}
+
+	public void updateGroceryItemFootnotes() {
 		int numCards = mCards.size();
 		for(int i=0; i<numCards; ++i) {
 			// show the user what item he is on and how many there are. E.g., 3 of 10
 			mCards.get(i).setFootnote(String.format(Locale.US, "%d of %d", i+1, numCards));
 		}
-		
+	}
+	
+	public boolean isEmpty() {
+		return mCards.isEmpty();
+	}
+	
+	public List<Card> getCards() {
+		updateGroceryItemFootnotes();
 		return mCards;
 	}
 }
