@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="64dip">
+    
+    <ImageView
+        android:id="@+id/avatar"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="8dip"
+        android:layout_gravity="center_vertical"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingRight="8dip"
+        android:paddingLeft="16dip"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    	<TextView
+    	    android:id="@+id/name"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:ellipsize="end"
+    	    android:maxLines="1"
+    	    android:text="My Name"
+    	    android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    	<TextView
+    	    android:id="@+id/latest_message"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:ellipsize="end"
+    	    android:maxLines="1"
+    	    android:text="You: Y u no override BaseAdapter?"
+    	    android:textAppearance="@android:style/TextAppearance.Small" />
+
+    </LinearLayout>
+
+</LinearLayout>
